@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import GrainEffect from "@/components/visualEffects/grain-effect";
-import { Cursor } from "@/components/visualEffects/cursor/cursor";
+import { Cursor } from "@/components/cursor/cursor";
 
 const MainFont = Bricolage_Grotesque({ subsets: ["latin"] });
 const OswaldFont = Oswald({ subsets: ["latin"], variable: "--font-oswald "});

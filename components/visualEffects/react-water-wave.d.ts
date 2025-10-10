@@ -1,6 +1,6 @@
 "use client"
 declare module 'react-water-wave' {
-    import { FC } from 'react';
+    import { FC} from 'react';
   
     interface WaterWaveProps {
       imageUrl: string;

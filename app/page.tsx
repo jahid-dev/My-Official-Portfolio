@@ -1,8 +1,20 @@
+"use client"
+import Card from "@/components/ui/card";
+import WaterWaveWrapper from "@/components/visualEffects/water-wave-wrapper.d";
 
 export default function Home() {
   return (
-   <div className="p-40">
-      <div className="link text-white text-10xl bg-red-500">hover</div>
-   </div>
+    <WaterWaveWrapper
+      imageUrl=""
+      dropRadius={3}
+      perturbance={3}
+      resolution={2048}
+    >
+      {() => <div className="w-full p-10">
+                <div className="max-w-2xl mx-auto">
+                  <Card title="Ui components">....</Card>
+                </div>
+            </div>}
+    </WaterWaveWrapper>
   );
 }
