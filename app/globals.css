@@ -12,7 +12,7 @@ body {
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    text-align: justify;
   }
   .before-content-none::before {
     content: "";
