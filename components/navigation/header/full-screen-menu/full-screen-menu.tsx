@@ -6,7 +6,6 @@ import NavLink from "./nav-link";
 import Link from "next/link";
 import MenuCard from "./menu-card";
 
-
 export default function FullScreenMenu() {
   return (
     <motion.div
@@ -48,22 +47,38 @@ export default function FullScreenMenu() {
           </div>
           {/*----Middle--------------*/}
           <div className="flex items-center gap-4">
-            <Link href="https://www.linkedin.com/in/jahid-hassan-71349a1aa/" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.linkedin.com/in/jahid-hassan-71349a1aa/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               LINKEDIN
             </Link>
-            <Link href="https://www.facebook.com/jahidhassanf/" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.facebook.com/jahidhassanf/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               FACEBOOK
             </Link>
-            <Link href="https://www.instagram.com/xahid_hassan/" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://www.instagram.com/xahid_hassan/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               INSTAGRAM
             </Link>
-            <Link href="https://x.com/jahidhassanf/" target="_blank" rel="noopener noreferrer">
+            <Link
+              href="https://x.com/jahidhassanf/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               TWITTER
             </Link>
           </div>
           {/*----Right--------------*/}
           <div className="flex items-center gap-4">
-            <Link href="/">©2024</Link>
+            <Link href="/">©{new Date().getFullYear()}</Link>
           </div>
         </div>
       </div>

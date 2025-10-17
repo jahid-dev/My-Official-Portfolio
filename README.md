@@ -165,9 +165,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -180,9 +177,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Built with ❤️ by [Your Name]**
+**Built with ❤️ by [Jahid Hassan]**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-green?style=for-the-badge)](https://your-portfolio.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-green?style=for-the-badge)](https://jahidhassan.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jahid-hassan-71349a1aa/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/jahid-dev)
 
