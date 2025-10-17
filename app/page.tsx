@@ -1,6 +1,16 @@
 "use client";
-import WaterWaveWrapper from "@/components/visualEffects/water-wave-wrapper.d";
+import AboutSection from "@/sections/about";
+import ContactSection from "@/sections/contact";
+import FeaturedSection from "@/sections/featured";
 import LandingSection from "@/sections/landing";
+import dynamic from "next/dynamic";
+
+
+// Dynamic import WaterWaveWrapper to ensure it's only used in the client-side environment
+const WaterWaveWrapper = dynamic(
+  () => import("@/components/visualEffects/water-wave-wrapper.d"),
+  { ssr: false }
+);
 
 export default function Home() {
   return (
@@ -11,11 +21,13 @@ export default function Home() {
       resolution={2048}
     >
       {() => (
-        <div>
-          <div className="py-8">
+          <div className="pb-8">
             <LandingSection />
-          </div>
-        </div>
+            <FeaturedSection />
+            <AboutSection />
+            <ContactSection />
+
+          </div>  
       )}
     </WaterWaveWrapper>
   );
